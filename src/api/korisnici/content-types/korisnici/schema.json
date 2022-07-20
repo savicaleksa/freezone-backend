@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "korisnicis",
+  "info": {
+    "singularName": "korisnici",
+    "pluralName": "korisnicis",
+    "displayName": "Korisnici"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}

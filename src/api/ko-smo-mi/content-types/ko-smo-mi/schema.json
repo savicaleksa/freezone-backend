@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "ko_smo_mis",
+  "info": {
+    "singularName": "ko-smo-mi",
+    "pluralName": "ko-smo-mis",
+    "displayName": "KoSmoMi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 50,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    }
+  }
+}

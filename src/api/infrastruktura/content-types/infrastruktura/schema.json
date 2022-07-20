@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "infrastrukturas",
+  "info": {
+    "singularName": "infrastruktura",
+    "pluralName": "infrastrukturas",
+    "displayName": "Infrastruktura"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "icon": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    }
+  }
+}
